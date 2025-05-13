@@ -5,6 +5,8 @@ header{
     font-size: 20px;
     background-color: rgb(3, 0, 46);
     padding: 10px 0px;
+    position:sticky;
+    top: 0;
 }
 
 #right-part{
