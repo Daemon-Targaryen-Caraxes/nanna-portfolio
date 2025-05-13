@@ -1,4 +1,4 @@
-#intro{
+#intro {
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -6,24 +6,24 @@
     margin-top: 100px;
 }
 
-#main-left-part{
+#main-left-part {
     height: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-div>h2{
+div>h2 {
     text-align: center;
 }
 
-#about-myself{
+#about-myself {
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
 
-#about-myself > div{
+#about-myself>div {
     width: 50vw;
     height: 50vh;
     display: flex;
@@ -49,4 +49,55 @@ div>h2{
 #find-me-top h1 {
     text-align: center;
     font-size: 35px;
+}
+
+#know-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+
+#know-me-left-part {
+    height: 45vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#know-me-left-part h1 {
+    text-align: center;
+}
+
+#know-me-content h3:last-child {
+    margin-top: 10px;
+}
+
+#know-me-content ul{
+    margin-top: 10px;
+}
+
+#know-me-content li {
+    margin-left: 100px;
+    list-style-type: square;
+}
+
+#skills svg, #tools svg {
+  border: 1px solid #c770f0;
+  border-radius: 10px;
+  padding: 10px 60px;
+}
+
+#skill-set h1, #tool-set h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+#skills, #tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
